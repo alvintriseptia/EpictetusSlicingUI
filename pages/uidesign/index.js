@@ -12,6 +12,7 @@ export default function uiPage() {
         <div className="flex justify-center flex-wrap gap-3">
           {posts.map((post, index) => (
             <CardPost
+              link="#"
               key={index}
               imgCard={post.imgCard}
               tag={post.tag}

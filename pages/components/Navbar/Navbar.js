@@ -98,25 +98,25 @@ const Navbar = () => {
               {dropdown ? (
                 <ul className="absolute mt-1 w-[100px] roudned-lg bg-gray-800">
                   <li className="hover:bg-gray-600">
-                    <a
+                    <Link
                       className="border-b-2 px-2 py-1 flex border-gray-500"
                       href="#"
                     >
                       Internet
-                    </a>
+                    </Link>
                   </li>
                   <li className="hover:bg-gray-600">
-                    <a
+                    <Link
                       className="border-b-2 px-2 pb-1 flex border-gray-500"
                       href="#"
                     >
                       Books
-                    </a>
+                    </Link>
                   </li>
                   <li className="hover:bg-gray-600">
-                    <a className="px-2 pb-1 flex" href="#">
+                    <Link className="px-2 pb-1 flex" href="#">
                       Open Source
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               ) : null}
