@@ -1,6 +1,4 @@
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import InfoPost from "../components/Post/InfoPost";
+import { Navbar, Footer, InfoPost } from "../../components";
 
 export default function blog() {
   return (
@@ -10,7 +8,7 @@ export default function blog() {
         <div className="flex justify-center">
           <div className="flex flex-col items-center justify-center md:w-6/12 text-center">
             <InfoPost
-              link=""
+              link="#"
               imgCard="/featuredpost.png"
               tag="UI DESIGN"
               date="July 2, 2021"

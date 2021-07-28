@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const infoPost = props => {
+const InfoPost = props => {
   return (
     <>
       <div className="flex space-x-3 mt-4">
@@ -28,4 +28,4 @@ const infoPost = props => {
   );
 };
 
-export default infoPost;
+export default InfoPost;
