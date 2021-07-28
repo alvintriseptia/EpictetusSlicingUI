@@ -1,11 +1,6 @@
 import "tailwindcss/tailwind.css";
-import {
-  Navbar,
-  FeaturedPost,
-  CardPost,
-  posts,
-  Footer,
-} from "./components/index.js";
+import { Navbar, FeaturedPost, CardPost, Footer } from "./components/export.js";
+import posts from "./components/Post/CardPost/posts.json";
 export default function Home(props) {
   return (
     <div className="bg-gradient-to-b from-body1 to-body2 min-h-screen text-white ">
