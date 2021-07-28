@@ -1,5 +1,8 @@
 import "tailwindcss/tailwind.css";
-import { Navbar, FeaturedPost, CardPost, Footer } from "./components/export.js";
+import Navbar from "./components/Navbar/Navbar";
+import FeaturedPost from "./components/Post/FeaturedPost/FeaturedPost";
+import CardPost from "./components/Post/CardPost/CardPost";
+import Footer from "./components/Footer/Footer";
 import posts from "./components/Post/CardPost/posts.json";
 export default function Home(props) {
   return (

@@ -1,4 +1,6 @@
-import { CardPost, Footer, Navbar } from "../components/export";
+import Navbar from "../components/Navbar/Navbar";
+import CardPost from "../components/Post/CardPost/CardPost";
+import Footer from "../components/Footer/Footer";
 import posts from "../components/Post/CardPost/posts.json";
 
 export default function uiPage() {
