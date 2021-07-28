@@ -1,4 +1,4 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar } from "../components/export";
 import InfoPost from "../components/Post/InfoPost";
 
 export default function blog() {
